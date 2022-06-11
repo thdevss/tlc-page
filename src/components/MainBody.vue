@@ -1,7 +1,7 @@
 <template>
   <b-container>
     <b-card no-body>
-      <b-tabs pills card vertical nav-wrapper-class="w-20">
+      <b-tabs pills card vertical nav-wrapper-class="w-20 col-sm-12 col-md-3">
         <b-tab title="ตรวจสลากฯ" active><b-card-text><CheckNumber /></b-card-text></b-tab>
         <b-tab title="ผลสลากฯทั้งหมด"><b-card-text><NumberTable /></b-card-text></b-tab>
 
@@ -39,5 +39,11 @@ li {
 }
 a {
   color: #42b983;
+}
+</style>
+
+<style>
+.col-auto {
+  width: -webkit-fill-available !important;
 }
 </style>

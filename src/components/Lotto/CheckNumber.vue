@@ -102,4 +102,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+@media only screen and (max-width: 767px) {
+    .col-12 {
+        max-width: 100% !important;
+    }
+}
 </style>
